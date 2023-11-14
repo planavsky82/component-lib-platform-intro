@@ -1,0 +1,2 @@
+import{r,h as s}from"./p-b7ed3cba.js";const e=".app-profile{padding:10px}";const i=class{constructor(s){r(this,s);this.match=undefined}normalize(r){if(r){return r.substr(0,1).toUpperCase()+r.substr(1).toLowerCase()}return""}render(){if(this.match&&this.match.params.name){return s("div",{class:"app-profile"},s("p",null,"Hello! My name is ",this.normalize(this.match.params.name),". My name was passed in through a route param!"))}}};i.style=e;export{i as app_profile};
+//# sourceMappingURL=p-12b804c7.entry.js.map
